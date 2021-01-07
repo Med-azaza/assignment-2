@@ -1,0 +1,41 @@
+body {
+	font-family:  sans-serif;
+}
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 1.75em;
+}
+.section {
+	border: 1px solid black;
+	margin: 20px;
+	width: 25%;
+	float: left;
+	padding: 15px;
+	background-color: lightgray;
+	position: relative;
+}
+.title {
+	border: 1px solid black;
+	font-size: 1.25em;
+	text-align: center;
+	width: 30%;
+	background-color: pink;
+	font-weight: bold;
+	position: absolute;
+	left: 70%;
+	bottom: 85%;
+}
+@media (max-width: 767px) {
+	.section {
+		width: 90%;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.section1, .section2 {
+		width: 40%;
+	}
+	.section3 {
+		width: 87%;
+	}
+}
